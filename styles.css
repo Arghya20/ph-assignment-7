@@ -145,19 +145,14 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  /* flex-basis: auto; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-around; */
 }
 
 .card {
   width: 100%;
   min-height: 100%;
   margin-right: 10px;
-  /* padding: 50px; */
   display: flex;
   flex-wrap: wrap;
-  /* grid-template-columns: repeat(3, 1fr); */
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
